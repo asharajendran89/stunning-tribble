@@ -19,25 +19,32 @@ WebUI.comment('TO UPDATE LOGGED IN USER ACADEMIC INFORMATION ')
 WebUI.click(findTestObject('Page_Academic Info/a_Academic Information'))
 
 'Enter \'Qualification\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_qualifica'), 'B.E')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_qualifica'), findTestData('academic_info').getValue(
+        1, 1))
 
 'Enter \'Degree\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_degree'), 'UG')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_degree'), findTestData('academic_info').getValue(2, 
+        1))
 
 'Enter \'Specialization\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_specializ'), 'COMPUTER SCIENCE')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_specializ'), findTestData('academic_info').getValue(
+        3, 1))
 
 'Enter \'Name Of The Institution\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_nameOfThe'), 'VTU')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_nameOfThe'), findTestData('academic_info').getValue(
+        4, 1))
 
 'Enter \'University\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_universit'), 'VISES')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_universit'), findTestData('academic_info').getValue(
+        5, 1))
 
 'Enter \'Year Of Passing\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_text-cent'), '2012')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_text-cent'), findTestData('academic_info').getValue(
+        6, 1))
 
 'Enter \'Percentage\''
-WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_percentage'), '90.00')
+WebUI.setText(findTestObject('Page_Academic Info/input_CGPAPercentage_percentage'), findTestData('academic_info').getValue(
+        7, 1))
 
 'Click \'Update\' button'
 WebUI.click(findTestObject('Page_Academic Info/button_Update'))

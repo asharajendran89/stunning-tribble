@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_academic_info,Chrome 70.0.3538.77,TO UPDATE LOGGED IN USER ACADEMIC INFO,2018-11-12 19:39:09,2018-11-12 19:39:31,21.754s,PASSED
+,,,,,,
+Test Cases/Login Page,Chrome 70.0.3538.77,,2018-11-12 19:39:10,2018-11-12 19:39:18,8.719s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-12 19:39:10,2018-11-12 19:39:10,0.052s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-12 19:39:10,2018-11-12 19:39:13,3.096s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-12 19:39:13,2018-11-12 19:39:14,1.153s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,JIN URL,2018-11-12 19:39:14,2018-11-12 19:39:15,0.852s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Email',2018-11-12 19:39:15,2018-11-12 19:39:17,1.550s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Enter 'Password',2018-11-12 19:39:17,2018-11-12 19:39:17,0.353s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Login "" button",2018-11-12 19:39:17,2018-11-12 19:39:17,0.169s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify Sucessful Login ,2018-11-12 19:39:17,2018-11-12 19:39:18,1.096s,PASSED
+,,,,,,
+Test Cases/Profile,Chrome 70.0.3538.77,Update profile,2018-11-12 19:39:18,2018-11-12 19:39:21,2.382s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-12 19:39:19,2018-11-12 19:39:19,0.008s,PASSED
+click,Chrome 70.0.3538.77,Click on drow-arrow icon on top right corner,2018-11-12 19:39:19,2018-11-12 19:39:19,0.500s,PASSED
+click,Chrome 70.0.3538.77,Click 'Profile',2018-11-12 19:39:19,2018-11-12 19:39:20,0.272s,PASSED
+click,Chrome 70.0.3538.77,Click 'Create',2018-11-12 19:39:20,2018-11-12 19:39:20,0.719s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify profile update page ,2018-11-12 19:39:20,2018-11-12 19:39:21,0.455s,PASSED
+,,,,,,
+Test Cases/Academic_info,Chrome 70.0.3538.77,UPDATE LOGGED IN USER ACADEMIC INFORMATION,2018-11-12 19:39:21,2018-11-12 19:39:30,9.452s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-12 19:39:21,2018-11-12 19:39:21,0.001s,PASSED
+click,Chrome 70.0.3538.77,Click 'Academic Inforomation' tab,2018-11-12 19:39:21,2018-11-12 19:39:22,0.285s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Qualification',2018-11-12 19:39:22,2018-11-12 19:39:22,0.606s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Degree',2018-11-12 19:39:22,2018-11-12 19:39:23,0.517s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Specialization',2018-11-12 19:39:23,2018-11-12 19:39:23,0.637s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Name Of The Institution',2018-11-12 19:39:23,2018-11-12 19:39:24,0.813s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'University',2018-11-12 19:39:24,2018-11-12 19:39:24,0.317s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Year Of Passing',2018-11-12 19:39:24,2018-11-12 19:39:25,0.335s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Percentage',2018-11-12 19:39:25,2018-11-12 19:39:25,0.317s,PASSED
+click,Chrome 70.0.3538.77,Click 'Update' button,2018-11-12 19:39:25,2018-11-12 19:39:25,0.202s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 19:39:25,2018-11-12 19:39:30,5.012s,PASSED
