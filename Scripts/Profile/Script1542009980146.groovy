@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('STEPS TO CLICK ON UPDATE PROFILE OF LOGGED IN USER')
 
 'Click on drow-arrow icon on top right corner'
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_arrow_drop_down'))

@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Basic Info</name>
+   <name>button_Update</name>
    <tag></tag>
-   <elementGuidId>ab97b7f3-7155-4bea-8911-daa260d04151</elementGuidId>
+   <elementGuidId>12a0f467-a182-4118-9adb-d0edd454ed29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#test1' and (text() = 'Basic Info' or . = 'Basic Info')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Basic Info')]</value>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#test1</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>active</value>
+      <value>btn waves-effect</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-activates</name>
+      <type>Main</type>
+      <value>recentOrdersActions</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>saveProfile()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Basic Info</value>
+      <value>Update</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;admin-control ng-scope&quot;]/div[@class=&quot;row mlr-10&quot;]/div[@class=&quot;col xl12 l12 m12 s12 bg-white z-depth-1 plr-5&quot;]/ul[@class=&quot;m-10 width-auto x-scroll ng-isolate-scope tabs&quot;]/li[@class=&quot;tab col xl3 l3 m3 s3 of-text&quot;]/a[@class=&quot;active&quot;]</value>
+      <value>id(&quot;test1&quot;)/div[@class=&quot;row m-t-15&quot;]/div[@class=&quot;col xl12 l12 m12 s12 plr-5 text-right&quot;]/button[@class=&quot;btn waves-effect&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Basic Info')]</value>
+      <name>xpath:attributes</name>
+      <value>//button[@type='button']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='test1']/div[3]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='phone_in_talk'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualification'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Academic Information'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Information'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '#test1')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Degree'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/div/div/div/ul/li/a</value>
+      <value>//div[3]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update Basic info of user</description>
+   <name>basic_info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e33e339-66ab-4483-9a80-ab900ec3401e</testCaseGuid>
+</TestCaseEntity>
