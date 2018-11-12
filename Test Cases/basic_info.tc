@@ -3,6 +3,55 @@
    <description>Update Basic info of user</description>
    <name>basic_info</name>
    <tag></tag>
-   <comment></comment>
+   <comment>TO UPDATE BASIC INFORMATION OF LOGGED IN USER </comment>
    <testCaseGuid>7e33e339-66ab-4483-9a80-ab900ec3401e</testCaseGuid>
+   <variable>
+      <defaultValue>'#1/2 , 5th A Cross '</defaultValue>
+      <description></description>
+      <id>ec2ef1e7-58e7-49ec-adb2-d1ef2e10f105</id>
+      <masked>false</masked>
+      <name>add1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Subbanna Garden , Vijayanagar'</defaultValue>
+      <description></description>
+      <id>725bcfc7-dbfc-4c61-a3c0-c00b5eceb021</id>
+      <masked>false</masked>
+      <name>add2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bengaluru'</defaultValue>
+      <description></description>
+      <id>51352043-6e1a-4192-94b1-117958022928</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'Karnataka'</defaultValue>
+      <description></description>
+      <id>f886ea72-3384-43af-8e78-f3046950a4ed</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'560040'</defaultValue>
+      <description></description>
+      <id>2955a0aa-ad75-4e65-83a1-76a0cfc79254</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'8123258018'</defaultValue>
+      <description></description>
+      <id>5493261b-eb5c-48a0-a143-ab1bc008bfa8</id>
+      <masked>false</masked>
+      <name>econtact</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mother'</defaultValue>
+      <description></description>
+      <id>fa714c9b-ea60-4b7f-8180-da917369f401</id>
+      <masked>false</masked>
+      <name>erelatioship</name>
+   </variable>
 </TestCaseEntity>

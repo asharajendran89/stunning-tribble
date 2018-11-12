@@ -3,6 +3,6 @@
    <description>Update profile</description>
    <name>Profile</name>
    <tag></tag>
-   <comment></comment>
+   <comment>STEPS TO CLICK ON UPDATE PROFILE OF LOGGED IN USER</comment>
    <testCaseGuid>2efc3b6f-e902-437a-9d2d-c0153780ff1e</testCaseGuid>
 </TestCaseEntity>

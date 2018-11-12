@@ -22,7 +22,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_arrow_drop_down')
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Profile'))
 
 'Click \'Create\''
-WebUI.click(findTestObject('Object Repository/Page_User Profile/i_create'))
+WebUI.click(findTestObject('Page_User Profile/i_create'))
 
 'Verify profile update page '
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Basic Info/a_Basic Info'), 0)

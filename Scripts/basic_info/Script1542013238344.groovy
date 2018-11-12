@@ -13,29 +13,36 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Address 1'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr1'), '#1/2 ,5th A Cross ')
-
 WebUI.comment('TO UPDATE BASIC INFORMATION OF LOGGED IN USER ')
 
+'Address 1'
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr1'), findTestData('basic_info').getValue(1, 
+        1))
+
 'Address 2'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr2'), 'Subbanna Garden , Vijayanagar')
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr2'), findTestData('basic_info').getValue(2, 
+        1))
 
 'City'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input_Address line 2_city'), 'Bengaluru')
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input_Address line 2_city'), findTestData('basic_info').getValue(
+        3, 1))
 
 'State'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__state'), 'Karnataka')
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__state'), findTestData('basic_info').getValue(4, 1))
 
 'Pin-code'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__pin'), '560040')
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__pin'), findTestData('basic_info').getValue(5, 1))
 
 'Emergency Contact Number'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContact'), '8123258018')
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContact'), findTestData('basic_info').getValue(
+        6, 1))
 
-'Emergency Contact Number'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContactRelatio'), 'Father')
+'Emergency Contact Relationship'
+WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContactRelatio'), findTestData('basic_info').getValue(
+        7, 1))
 
 'Click \'Update\' button'
 WebUI.click(findTestObject('Object Repository/Page_Basic Info/button_Update'))
+
+WebUI.delay(5)
 

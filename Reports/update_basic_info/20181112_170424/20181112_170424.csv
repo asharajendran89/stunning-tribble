@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_basic_info,Chrome 70.0.3538.77,,2018-11-12 17:04:26,2018-11-12 17:04:41,14.949s,ERROR
+,,,,,,
+Test Cases/Login Page,Chrome 70.0.3538.77,,2018-11-12 17:04:26,2018-11-12 17:04:35,9.326s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-12 17:04:26,2018-11-12 17:04:26,0.048s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-12 17:04:26,2018-11-12 17:04:30,3.603s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-12 17:04:30,2018-11-12 17:04:31,1.150s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,JIN URL,2018-11-12 17:04:31,2018-11-12 17:04:32,1.059s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Email',2018-11-12 17:04:32,2018-11-12 17:04:34,1.544s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Enter 'Password',2018-11-12 17:04:34,2018-11-12 17:04:34,0.349s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Login "" button",2018-11-12 17:04:34,2018-11-12 17:04:34,0.176s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify Sucessful Login ,2018-11-12 17:04:34,2018-11-12 17:04:35,1.041s,PASSED
+,,,,,,
+Test Cases/Profile,Chrome 70.0.3538.77,Update profile,2018-11-12 17:04:35,2018-11-12 17:04:39,3.444s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-12 17:04:36,2018-11-12 17:04:36,0.003s,PASSED
+click,Chrome 70.0.3538.77,Click on drow-arrow icon on top right corner,2018-11-12 17:04:36,2018-11-12 17:04:37,1.387s,PASSED
+click,Chrome 70.0.3538.77,Click 'Profile',2018-11-12 17:04:37,2018-11-12 17:04:37,0.249s,PASSED
+click,Chrome 70.0.3538.77,Click 'Create',2018-11-12 17:04:37,2018-11-12 17:04:38,1.175s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify profile update page ,2018-11-12 17:04:38,2018-11-12 17:04:39,0.293s,PASSED
+,,,,,,
+Test Cases/basic_info,Chrome 70.0.3538.77,Update Basic info of user,2018-11-12 17:04:39,2018-11-12 17:04:40,0.996s,ERROR
+comment,Chrome 70.0.3538.77,,2018-11-12 17:04:39,2018-11-12 17:04:39,0.002s,PASSED
+setText,Chrome 70.0.3538.77,Address 1,2018-11-12 17:04:39,2018-11-12 17:04:40,0.517s,PASSED
+setText,Chrome 70.0.3538.77,Address 2,2018-11-12 17:04:40,2018-11-12 17:04:40,0.010s,PASSED
