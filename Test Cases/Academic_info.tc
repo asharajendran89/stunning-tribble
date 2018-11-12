@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>UPDATE LOGGED IN USER ACADEMIC INFORMATION</description>
+   <name>Academic_info</name>
+   <tag></tag>
+   <comment>TO UPDATE LOGGED IN USER ACADEMIC INFORMATION </comment>
+   <testCaseGuid>9e7719c9-08fd-46b9-b983-212a2ae60183</testCaseGuid>
+</TestCaseEntity>

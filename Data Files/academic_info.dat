@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>TEST DATA TO UPDATE ACADEMIC INFO OF LOGGED IN USER</description>
+   <name>academic_info</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0ec758f0-6d1c-40db-aad1-276601a2aae0</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data></data>
+   <data></data>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

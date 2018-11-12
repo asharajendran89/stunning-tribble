@@ -4,7 +4,7 @@
    <name>update_basic_info</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T17:16:53</lastRun>
+   <lastRun>2018-11-12T18:37:42</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
