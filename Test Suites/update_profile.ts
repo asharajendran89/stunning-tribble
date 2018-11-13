@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>update_basic_info</name>
+   <description>TO UPDATE BASIC/PERSONAL/ACCOUNT/ACADEMIC INFORMATION</description>
+   <name>update_profile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-13T15:06:34</lastRun>
+   <lastRun>2018-11-13T14:37:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ed072b24-a2a4-4e9d-858e-9b30c75cd9d2</testSuiteGuid>
+   <testSuiteGuid>501414c7-4f9e-4cfd-81ef-3a9987762d88</testSuiteGuid>
    <testCaseLink>
-      <guid>4c38ca6e-2c49-4870-b1b7-b842893123cf</guid>
+      <guid>d25dcdf8-bead-44bc-9a89-9aec581e0faf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7355c187-be9b-410b-9f07-63bb3a5b69ea</guid>
+      <guid>ab2dfcd0-efdd-4cd7-9a9b-14561168465b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c0475be-fc89-4d84-9cd0-54eb129d00a9</guid>
+      <guid>88312592-7792-46ef-9ea7-8a558c14a335</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/basic_info</testCaseId>
@@ -70,5 +70,23 @@
          <value></value>
          <variableId>fa714c9b-ea60-4b7f-8180-da917369f401</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d500081f-e0ab-49e3-83fd-bd76fb3d600d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Academic_info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>460e11dd-eacd-4fcd-8f6d-d03385774cba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Personal_info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f72ea825-4855-4c8a-afd4-d5bb6e7349b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/account_info</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

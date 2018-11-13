@@ -13,17 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('STEPS TO CLICK ON UPDATE PROFILE OF LOGGED IN USER')
+WebUI.comment('TEST TO UPDATE ACCOUNT INFORMATION OF LOGGED IN USER')
 
-'Click on drow-arrow icon on top right corner'
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_arrow_drop_down'))
+'Click \'Account Information\' tab\r\n'
+WebUI.click(findTestObject('Page_Account Info/a_Account Information'))
 
-'Click \'Profile\''
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Profile'))
+'Enter \'Bank Name\''
+WebUI.setText(findTestObject('Page_Account Info/input_Update_nameOfBank'), findTestData('account_info').getValue(1, 1))
 
-'Click \'Create\''
-WebUI.click(findTestObject('Page_User Profile/i_create'))
+'Enter \'Name as per Bank \''
+WebUI.setText(findTestObject('Page_Account Info/input__name'), findTestData('account_info').getValue(2, 1))
 
-'Verify profile update page '
-WebUI.verifyElementPresent(findTestObject('Page_Basic Info/a_Basic Info'), 0)
+'Enter \'Account Number\''
+WebUI.setText(findTestObject('Page_Account Info/input__accountNo'), findTestData('account_info').getValue(3, 1))
+
+WebUI.click(findTestObject('Page_Account Info/button_Update'))
+
+WebUI.delay(5)
 

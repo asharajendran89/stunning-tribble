@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="update_account_info" time="18" tests="3" failures="0" errors="0">
+   <testsuite name="update_account_info" tests="3" failures="0" errors="0" time="18" timestamp="2018-11-13 13:56:23" hostname="Administrator - Asha.jmandigital.in" id="Test Suites/update_account_info">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\JIN\\Reports\\update_account_info\\20181113_135621"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\JIN\\Reports\\update_account_info\\20181113_135621\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - Asha.jmandigital.in"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.0.37"/>
+         <property name="sessionId" value="394458ddc372d59f81fa29d632596c6f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Page" classname="Test Cases/Login Page" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:56:23 - [TEST_CASE][PASSED] - Test Cases/Login Page: Test Cases/Login Page
+
+2018-11-13 13:56:24 - [TEST_STEP][PASSED] - comment: LOGIN TO JIN  USING VALID CREDENTIALS
+
+2018-11-13 13:56:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 13:56:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 13:56:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 13:56:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 13:56:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.0.28:5051/' successfully
+
+2018-11-13 13:56:29 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:5051/' successfully
+
+2018-11-13 13:56:29 - [TEST_STEP][PASSED] - setText: Text 'maddie@gmail.com' is set on object 'Object Repository/Page_JIN Login/input_JIN_email'
+
+2018-11-13 13:56:31 - [MESSAGE][PASSED] - Text 'maddie@gmail.com' is set on object 'Object Repository/Page_JIN Login/input_JIN_email'
+
+2018-11-13 13:56:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JIN Login/input_Email_password'
+
+2018-11-13 13:56:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JIN Login/input_Email_password'
+
+2018-11-13 13:56:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JIN Login/button_LOGIN' is clicked on
+
+2018-11-13 13:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIN Login/button_LOGIN' is clicked on
+
+2018-11-13 13:56:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Dashboard/span_Dashboard' is present
+
+2018-11-13 13:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard/span_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile" classname="Test Cases/Profile" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:56:32 - [TEST_CASE][PASSED] - Test Cases/Profile: Test Cases/Profile
+
+2018-11-13 13:56:32 - [TEST_STEP][PASSED] - comment: STEPS TO CLICK ON UPDATE PROFILE OF LOGGED IN USER
+
+2018-11-13 13:56:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/i_arrow_drop_down' is clicked on
+
+2018-11-13 13:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_arrow_drop_down' is clicked on
+
+2018-11-13 13:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2018-11-13 13:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2018-11-13 13:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User Profile/i_create' is clicked on
+
+2018-11-13 13:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User Profile/i_create' is clicked on
+
+2018-11-13 13:56:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Basic Info/a_Basic Info' is present
+
+2018-11-13 13:56:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:56:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Basic Info/a_Basic Info' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/account_info" classname="Test Cases/account_info" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:56:34 - [TEST_CASE][PASSED] - Test Cases/account_info: Test Cases/account_info
+
+2018-11-13 13:56:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Account Info/a_Account Information' is clicked on
+
+2018-11-13 13:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Info/a_Account Information' is clicked on
+
+2018-11-13 13:56:34 - [TEST_STEP][PASSED] - setText: Text 'Canara Bank' is set on object 'Object Repository/Page_Account Info/input_Update_nameOfBank'
+
+2018-11-13 13:56:35 - [MESSAGE][PASSED] - Text 'Canara Bank' is set on object 'Object Repository/Page_Account Info/input_Update_nameOfBank'
+
+2018-11-13 13:56:35 - [TEST_STEP][PASSED] - setText: Text 'Madeline' is set on object 'Object Repository/Page_Account Info/input__name'
+
+2018-11-13 13:56:35 - [MESSAGE][PASSED] - Text 'Madeline' is set on object 'Object Repository/Page_Account Info/input__name'
+
+2018-11-13 13:56:35 - [TEST_STEP][PASSED] - setText: Text '56482655550009' is set on object 'Object Repository/Page_Account Info/input__accountNo'
+
+2018-11-13 13:56:36 - [MESSAGE][PASSED] - Text '56482655550009' is set on object 'Object Repository/Page_Account Info/input__accountNo'
+
+2018-11-13 13:56:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Account Info/button_Update' is clicked on
+
+2018-11-13 13:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Info/button_Update' is clicked on
+
+2018-11-13 13:56:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:56:41 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 13:56:23 - [TEST_SUITE][PASSED] - update_account_info: Test Cases/account_info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

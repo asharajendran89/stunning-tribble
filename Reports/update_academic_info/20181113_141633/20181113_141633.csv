@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_academic_info,Chrome 70.0.3538.77,TO UPDATE LOGGED IN USER ACADEMIC INFO,2018-11-13 14:16:35,2018-11-13 14:16:51,16.009s,ERROR
+,,,,,,
+Test Cases/Login Page,Chrome 70.0.3538.77,,2018-11-13 14:16:35,2018-11-13 14:16:47,11.887s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 14:16:35,2018-11-13 14:16:35,0.049s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-13 14:16:35,2018-11-13 14:16:40,5.064s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-13 14:16:40,2018-11-13 14:16:42,1.151s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,JIN URL,2018-11-13 14:16:42,2018-11-13 14:16:44,2.262s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Email',2018-11-13 14:16:44,2018-11-13 14:16:45,1.579s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Enter 'Password',2018-11-13 14:16:45,2018-11-13 14:16:46,0.330s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Login "" button",2018-11-13 14:16:46,2018-11-13 14:16:46,0.170s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify Sucessful Login ,2018-11-13 14:16:46,2018-11-13 14:16:47,0.889s,PASSED
+,,,,,,
+Test Cases/Profile,Chrome 70.0.3538.77,Update profile,2018-11-13 14:16:47,2018-11-13 14:16:49,2.094s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 14:16:47,2018-11-13 14:16:47,0.003s,PASSED
+click,Chrome 70.0.3538.77,Click on drow-arrow icon on top right corner,2018-11-13 14:16:47,2018-11-13 14:16:48,0.643s,PASSED
+click,Chrome 70.0.3538.77,Click 'Profile',2018-11-13 14:16:48,2018-11-13 14:16:48,0.252s,PASSED
+click,Chrome 70.0.3538.77,Click 'Create',2018-11-13 14:16:48,2018-11-13 14:16:49,0.507s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify profile update page ,2018-11-13 14:16:49,2018-11-13 14:16:49,0.412s,PASSED
+,,,,,,
+Test Cases/Update_Profile_All/Academic_info,Chrome 70.0.3538.77,UPDATE LOGGED IN USER ACADEMIC INFORMATION,2018-11-13 14:16:49,2018-11-13 14:16:50,0.840s,ERROR
+comment,Chrome 70.0.3538.77,,2018-11-13 14:16:49,2018-11-13 14:16:49,0.002s,PASSED
+click,Chrome 70.0.3538.77,Click 'Academic Inforomation' tab,2018-11-13 14:16:49,2018-11-13 14:16:49,0.134s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Qualification',2018-11-13 14:16:49,2018-11-13 14:16:50,0.404s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Degree',2018-11-13 14:16:50,2018-11-13 14:16:50,0.008s,PASSED

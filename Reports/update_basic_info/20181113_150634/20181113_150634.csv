@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_basic_info,IE 11,,2018-11-13 15:06:37,2018-11-13 15:06:50,12.120s,FAILED
+,,,,,,
+Test Cases/Login Page,IE 11,,2018-11-13 15:06:38,2018-11-13 15:06:47,8.638s,FAILED
+comment,IE 11,,2018-11-13 15:06:39,2018-11-13 15:06:39,0.105s,PASSED
+openBrowser,IE 11,,2018-11-13 15:06:39,2018-11-13 15:06:44,5.573s,PASSED
+maximizeWindow,IE 11,,2018-11-13 15:06:44,2018-11-13 15:06:45,0.030s,PASSED
+navigateToUrl,IE 11,JIN URL,2018-11-13 15:06:45,2018-11-13 15:06:45,0.361s,PASSED
+setText,IE 11,Enter 'Email',2018-11-13 15:06:45,2018-11-13 15:06:47,1.731s,FAILED
+,,,,,,
+Test Cases/Profile,IE 11,Update profile,2018-11-13 15:06:47,2018-11-13 15:06:47,0.376s,FAILED
+comment,IE 11,,2018-11-13 15:06:47,2018-11-13 15:06:47,0.002s,PASSED
+click,IE 11,Click on drow-arrow icon on top right corner,2018-11-13 15:06:47,2018-11-13 15:06:47,0.160s,FAILED
+,,,,,,
+Test Cases/basic_info,IE 11,Update Basic info of user,2018-11-13 15:06:47,2018-11-13 15:06:48,0.638s,FAILED
+comment,IE 11,,2018-11-13 15:06:47,2018-11-13 15:06:47,0.011s,PASSED
+setText,IE 11,Address 1,2018-11-13 15:06:47,2018-11-13 15:06:48,0.287s,FAILED

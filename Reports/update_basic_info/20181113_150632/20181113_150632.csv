@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_basic_info,Chrome 70.0.3538.77,,2018-11-13 15:06:37,2018-11-13 15:07:23,45.939s,PASSED
+,,,,,,
+Test Cases/Login Page,Chrome 70.0.3538.77,,2018-11-13 15:06:38,2018-11-13 15:07:03,25.074s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 15:06:39,2018-11-13 15:06:39,0.085s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-13 15:06:39,2018-11-13 15:06:50,11.535s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-13 15:06:50,2018-11-13 15:06:51,1.156s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,JIN URL,2018-11-13 15:06:51,2018-11-13 15:06:55,3.753s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Email',2018-11-13 15:06:55,2018-11-13 15:06:59,4.129s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Enter 'Password',2018-11-13 15:06:59,2018-11-13 15:07:00,0.610s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Login "" button",2018-11-13 15:07:00,2018-11-13 15:07:00,0.204s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify Sucessful Login ,2018-11-13 15:07:00,2018-11-13 15:07:03,2.799s,PASSED
+,,,,,,
+Test Cases/Profile,Chrome 70.0.3538.77,Update profile,2018-11-13 15:07:03,2018-11-13 15:07:06,3.430s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 15:07:04,2018-11-13 15:07:04,0.005s,PASSED
+click,Chrome 70.0.3538.77,Click on drow-arrow icon on top right corner,2018-11-13 15:07:04,2018-11-13 15:07:04,0.515s,PASSED
+click,Chrome 70.0.3538.77,Click 'Profile',2018-11-13 15:07:04,2018-11-13 15:07:05,0.476s,PASSED
+click,Chrome 70.0.3538.77,Click 'Create',2018-11-13 15:07:05,2018-11-13 15:07:06,0.937s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify profile update page ,2018-11-13 15:07:06,2018-11-13 15:07:06,0.656s,PASSED
+,,,,,,
+Test Cases/basic_info,Chrome 70.0.3538.77,Update Basic info of user,2018-11-13 15:07:06,2018-11-13 15:07:21,14.419s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 15:07:08,2018-11-13 15:07:08,0.002s,PASSED
+setText,Chrome 70.0.3538.77,Address 1,2018-11-13 15:07:08,2018-11-13 15:07:09,1.794s,PASSED
+setText,Chrome 70.0.3538.77,Address 2,2018-11-13 15:07:09,2018-11-13 15:07:11,1.194s,PASSED
+setText,Chrome 70.0.3538.77,City,2018-11-13 15:07:11,2018-11-13 15:07:12,1.250s,PASSED
+setText,Chrome 70.0.3538.77,State,2018-11-13 15:07:12,2018-11-13 15:07:13,1.075s,PASSED
+setText,Chrome 70.0.3538.77,Pin-code,2018-11-13 15:07:13,2018-11-13 15:07:14,1.314s,PASSED
+setText,Chrome 70.0.3538.77,Emergency Contact Number,2018-11-13 15:07:14,2018-11-13 15:07:15,0.837s,PASSED
+setText,Chrome 70.0.3538.77,Emergency Contact Relationship,2018-11-13 15:07:15,2018-11-13 15:07:15,0.432s,PASSED
+click,Chrome 70.0.3538.77,Click 'Update' button,2018-11-13 15:07:15,2018-11-13 15:07:16,0.319s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-13 15:07:16,2018-11-13 15:07:21,5.023s,PASSED

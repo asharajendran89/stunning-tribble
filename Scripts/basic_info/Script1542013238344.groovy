@@ -16,33 +16,33 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.comment('TO UPDATE BASIC INFORMATION OF LOGGED IN USER ')
 
 'Address 1'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr1'), findTestData('basic_info').getValue(1, 
+WebUI.setText(findTestObject('Page_Basic Info/textarea__addr1'), findTestData('basic_info').getValue(1, 
         1))
 
 'Address 2'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/textarea__addr2'), findTestData('basic_info').getValue(2, 
+WebUI.setText(findTestObject('Page_Basic Info/textarea__addr2'), findTestData('basic_info').getValue(2, 
         1))
 
 'City'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input_Address line 2_city'), findTestData('basic_info').getValue(
+WebUI.setText(findTestObject('Page_Basic Info/input_Address line 2_city'), findTestData('basic_info').getValue(
         3, 1))
 
 'State'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__state'), findTestData('basic_info').getValue(4, 1))
+WebUI.setText(findTestObject('Page_Basic Info/input__state'), findTestData('basic_info').getValue(4, 1))
 
 'Pin-code'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__pin'), findTestData('basic_info').getValue(5, 1))
+WebUI.setText(findTestObject('Page_Basic Info/input__pin'), findTestData('basic_info').getValue(5, 1))
 
 'Emergency Contact Number'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContact'), findTestData('basic_info').getValue(
+WebUI.setText(findTestObject('Page_Basic Info/input__emergencyContact'), findTestData('basic_info').getValue(
         6, 1))
 
 'Emergency Contact Relationship'
-WebUI.setText(findTestObject('Object Repository/Page_Basic Info/input__emergencyContactRelatio'), findTestData('basic_info').getValue(
+WebUI.setText(findTestObject('Page_Basic Info/input__emergencyContactRelatio'), findTestData('basic_info').getValue(
         7, 1))
 
 'Click \'Update\' button'
-WebUI.click(findTestObject('Object Repository/Page_Basic Info/button_Update'))
+WebUI.click(findTestObject('Page_Basic Info/button_Update'))
 
 WebUI.delay(5)
 

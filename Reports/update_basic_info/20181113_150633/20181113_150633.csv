@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_basic_info,Firefox 47.0,,2018-11-13 15:06:37,2018-11-13 15:07:54,1m - 17.245s,PASSED
+,,,,,,
+Test Cases/Login Page,Firefox 47.0,,2018-11-13 15:06:38,2018-11-13 15:07:40,1m - 2.630s,PASSED
+comment,Firefox 47.0,,2018-11-13 15:06:39,2018-11-13 15:06:39,0.107s,PASSED
+openBrowser,Firefox 47.0,,2018-11-13 15:06:39,2018-11-13 15:07:14,35.671s,PASSED
+maximizeWindow,Firefox 47.0,,2018-11-13 15:07:14,2018-11-13 15:07:14,0.176s,PASSED
+navigateToUrl,Firefox 47.0,JIN URL,2018-11-13 15:07:14,2018-11-13 15:07:21,6.422s,PASSED
+setText,Firefox 47.0,Enter 'Email',2018-11-13 15:07:21,2018-11-13 15:07:26,5.487s,PASSED
+setEncryptedText,Firefox 47.0,Enter 'Password',2018-11-13 15:07:26,2018-11-13 15:07:27,0.645s,PASSED
+click,Firefox 47.0,"Click ""Login "" button",2018-11-13 15:07:27,2018-11-13 15:07:28,0.520s,PASSED
+verifyElementPresent,Firefox 47.0,Verify Sucessful Login ,2018-11-13 15:07:28,2018-11-13 15:07:40,12.892s,PASSED
+,,,,,,
+Test Cases/Profile,Firefox 47.0,Update profile,2018-11-13 15:07:40,2018-11-13 15:07:44,3.326s,PASSED
+comment,Firefox 47.0,,2018-11-13 15:07:41,2018-11-13 15:07:41,0.038s,PASSED
+click,Firefox 47.0,Click on drow-arrow icon on top right corner,2018-11-13 15:07:41,2018-11-13 15:07:41,0.400s,PASSED
+click,Firefox 47.0,Click 'Profile',2018-11-13 15:07:41,2018-11-13 15:07:42,0.357s,PASSED
+click,Firefox 47.0,Click 'Create',2018-11-13 15:07:42,2018-11-13 15:07:43,1.815s,PASSED
+verifyElementPresent,Firefox 47.0,Verify profile update page ,2018-11-13 15:07:43,2018-11-13 15:07:44,0.331s,PASSED
+,,,,,,
+Test Cases/basic_info,Firefox 47.0,Update Basic info of user,2018-11-13 15:07:44,2018-11-13 15:07:54,10.135s,PASSED
+comment,Firefox 47.0,,2018-11-13 15:07:44,2018-11-13 15:07:44,0.001s,PASSED
+setText,Firefox 47.0,Address 1,2018-11-13 15:07:44,2018-11-13 15:07:45,0.993s,PASSED
+setText,Firefox 47.0,Address 2,2018-11-13 15:07:45,2018-11-13 15:07:46,0.722s,PASSED
+setText,Firefox 47.0,City,2018-11-13 15:07:46,2018-11-13 15:07:47,0.601s,PASSED
+setText,Firefox 47.0,State,2018-11-13 15:07:47,2018-11-13 15:07:47,0.515s,PASSED
+setText,Firefox 47.0,Pin-code,2018-11-13 15:07:47,2018-11-13 15:07:48,0.459s,PASSED
+setText,Firefox 47.0,Emergency Contact Number,2018-11-13 15:07:48,2018-11-13 15:07:48,0.621s,PASSED
+setText,Firefox 47.0,Emergency Contact Relationship,2018-11-13 15:07:48,2018-11-13 15:07:49,0.432s,PASSED
+click,Firefox 47.0,Click 'Update' button,2018-11-13 15:07:49,2018-11-13 15:07:49,0.314s,PASSED
+delay,Firefox 47.0,,2018-11-13 15:07:49,2018-11-13 15:07:54,5.015s,PASSED

@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Update</name>
    <tag></tag>
-   <elementGuidId>67b345fe-b67c-45ab-a574-4f8f9274a832</elementGuidId>
+   <elementGuidId>dd6a166a-317d-4cff-8013-eb5987a30fdf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='test2']/div/div/div/button[count(. | //*[(text() = 'Update' or . = 'Update')]) = count(//*[(text() = 'Update' or . = 'Update')])]</value>
+         <value>.//*[@id='test4']/div[2]/div/button[count(. | //button[@type = 'button' and (text() = 'Update' or . = 'Update')]) = count(//button[@type = 'button' and (text() = 'Update' or . = 'Update')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,14 +17,14 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='test2']/div/div/div/button</value>
+      <value>.//*[@id='test4']/div[2]/div/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
