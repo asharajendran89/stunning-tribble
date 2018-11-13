@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TO UPDATE PERSONAL INFORMATION OF LOGGED IN USER</description>
+   <name>Personal_info</name>
+   <tag></tag>
+   <comment>TEST CASE TO UPDATE LOGGED IN USER PRSONAL INFORMATION </comment>
+   <testCaseGuid>ff89089f-f7a2-402d-bb8c-8cf31572ff70</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="update_personal_info" time="26" tests="3" failures="0" errors="0">
+   <testsuite name="update_personal_info" tests="3" failures="0" errors="0" time="26" timestamp="2018-11-13 12:09:14" hostname="Administrator - Asha.jmandigital.in" id="Test Suites/update_personal_info">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\JIN\\Reports\\update_personal_info\\20181113_120912"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\JIN\\Reports\\update_personal_info\\20181113_120912\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - Asha.jmandigital.in"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.0.37"/>
+         <property name="sessionId" value="191c0c4161e37304d6a7fe70950d5b64"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Page" classname="Test Cases/Login Page" status="PASSED">
+         <system-out><![CDATA[2018-11-13 12:09:15 - [TEST_CASE][PASSED] - Test Cases/Login Page: Test Cases/Login Page
+
+2018-11-13 12:09:15 - [TEST_STEP][PASSED] - comment: LOGIN TO JIN  USING VALID CREDENTIALS
+
+2018-11-13 12:09:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 12:09:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 12:09:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 12:09:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 12:09:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.0.28:5051/' successfully
+
+2018-11-13 12:09:22 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:5051/' successfully
+
+2018-11-13 12:09:22 - [TEST_STEP][PASSED] - setText: Text 'maddie@gmail.com' is set on object 'Object Repository/Page_JIN Login/input_JIN_email'
+
+2018-11-13 12:09:24 - [MESSAGE][PASSED] - Text 'maddie@gmail.com' is set on object 'Object Repository/Page_JIN Login/input_JIN_email'
+
+2018-11-13 12:09:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_JIN Login/input_Email_password'
+
+2018-11-13 12:09:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_JIN Login/input_Email_password'
+
+2018-11-13 12:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_JIN Login/button_LOGIN' is clicked on
+
+2018-11-13 12:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIN Login/button_LOGIN' is clicked on
+
+2018-11-13 12:09:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Dashboard/span_Dashboard' is present
+
+2018-11-13 12:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 12:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard/span_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile" classname="Test Cases/Profile" status="PASSED">
+         <system-out><![CDATA[2018-11-13 12:09:26 - [TEST_CASE][PASSED] - Test Cases/Profile: Test Cases/Profile
+
+2018-11-13 12:09:26 - [TEST_STEP][PASSED] - comment: STEPS TO CLICK ON UPDATE PROFILE OF LOGGED IN USER
+
+2018-11-13 12:09:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/i_arrow_drop_down' is clicked on
+
+2018-11-13 12:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_arrow_drop_down' is clicked on
+
+2018-11-13 12:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2018-11-13 12:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2018-11-13 12:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_User Profile/i_create' is clicked on
+
+2018-11-13 12:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User Profile/i_create' is clicked on
+
+2018-11-13 12:09:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Basic Info/a_Basic Info' is present
+
+2018-11-13 12:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 12:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Basic Info/a_Basic Info' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Personal_info" classname="Test Cases/Personal_info" status="PASSED">
+         <system-out><![CDATA[2018-11-13 12:09:28 - [TEST_CASE][PASSED] - Test Cases/Personal_info: Test Cases/Personal_info
+
+2018-11-13 12:09:29 - [TEST_STEP][PASSED] - comment: TEST CASE TO UPDATE LOGGED IN USER PRSONAL INFORMATION 
+
+2018-11-13 12:09:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 12:09:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 12:09:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Personal Info/a_Personal Information' is clicked on
+
+2018-11-13 12:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Personal Info/a_Personal Information' is clicked on
+
+2018-11-13 12:09:34 - [TEST_STEP][PASSED] - setText: Text '4585698458' is set on object 'Object Repository/Page_Personal Info/input_Blood Group_panNo'
+
+2018-11-13 12:09:34 - [MESSAGE][PASSED] - Text '4585698458' is set on object 'Object Repository/Page_Personal Info/input_Blood Group_panNo'
+
+2018-11-13 12:09:34 - [TEST_STEP][PASSED] - setText: Text '78541258569' is set on object 'Object Repository/Page_Personal Info/input__adharNo'
+
+2018-11-13 12:09:35 - [MESSAGE][PASSED] - Text '78541258569' is set on object 'Object Repository/Page_Personal Info/input__adharNo'
+
+2018-11-13 12:09:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 12:09:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 12:09:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Personal Info/button_Update' is clicked on
+
+2018-11-13 12:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Personal Info/button_Update' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 12:09:14 - [TEST_SUITE][PASSED] - update_personal_info: Test Cases/Personal_info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

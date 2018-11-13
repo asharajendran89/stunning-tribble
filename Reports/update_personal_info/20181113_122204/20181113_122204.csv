@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+update_personal_info,Chrome 70.0.3538.77,TO UPDATE PERSONAL INFORMATION OF LOGGED IN USER,2018-11-13 12:22:06,2018-11-13 12:22:29,23.156s,PASSED
+,,,,,,
+Test Cases/Login Page,Chrome 70.0.3538.77,,2018-11-13 12:22:07,2018-11-13 12:22:18,10.791s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 12:22:07,2018-11-13 12:22:07,0.058s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-13 12:22:07,2018-11-13 12:22:12,4.793s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-13 12:22:12,2018-11-13 12:22:13,1.157s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,JIN URL,2018-11-13 12:22:13,2018-11-13 12:22:14,1.150s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Email',2018-11-13 12:22:14,2018-11-13 12:22:16,1.525s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Enter 'Password',2018-11-13 12:22:16,2018-11-13 12:22:16,0.376s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Login "" button",2018-11-13 12:22:16,2018-11-13 12:22:17,0.310s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify Sucessful Login ,2018-11-13 12:22:17,2018-11-13 12:22:18,1.012s,PASSED
+,,,,,,
+Test Cases/Profile,Chrome 70.0.3538.77,Update profile,2018-11-13 12:22:18,2018-11-13 12:22:20,2.569s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 12:22:18,2018-11-13 12:22:18,0.002s,PASSED
+click,Chrome 70.0.3538.77,Click on drow-arrow icon on top right corner,2018-11-13 12:22:18,2018-11-13 12:22:19,0.655s,PASSED
+click,Chrome 70.0.3538.77,Click 'Profile',2018-11-13 12:22:19,2018-11-13 12:22:19,0.420s,PASSED
+click,Chrome 70.0.3538.77,Click 'Create',2018-11-13 12:22:19,2018-11-13 12:22:20,0.749s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify profile update page ,2018-11-13 12:22:20,2018-11-13 12:22:20,0.353s,PASSED
+,,,,,,
+Test Cases/Personal_info,Chrome 70.0.3538.77,TO UPDATE PERSONAL INFORMATION OF LOGGED IN USER,2018-11-13 12:22:20,2018-11-13 12:22:29,8.544s,PASSED
+comment,Chrome 70.0.3538.77,,2018-11-13 12:22:21,2018-11-13 12:22:21,0.002s,PASSED
+click,Chrome 70.0.3538.77,"Click ""Personal Information' tab
+
+",2018-11-13 12:22:21,2018-11-13 12:22:21,0.262s,PASSED
+setText,Chrome 70.0.3538.77,"Enter 'Father's Name'
+",2018-11-13 12:22:21,2018-11-13 12:22:21,0.591s,PASSED
+setText,Chrome 70.0.3538.77,"Enter 'Pan Number'
+",2018-11-13 12:22:21,2018-11-13 12:22:22,0.541s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Adhar Number',2018-11-13 12:22:22,2018-11-13 12:22:22,0.479s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Driving Licesen No',2018-11-13 12:22:22,2018-11-13 12:22:23,0.549s,PASSED
+setText,Chrome 70.0.3538.77,Enter 'Passport Number',2018-11-13 12:22:23,2018-11-13 12:22:23,0.502s,PASSED
+click,Chrome 70.0.3538.77,Click 'Update' button,2018-11-13 12:22:23,2018-11-13 12:22:24,0.193s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-13 12:22:24,2018-11-13 12:22:29,5.012s,PASSED

@@ -1,79 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_add</name>
+   <name>a_Personal Information</name>
    <tag></tag>
-   <elementGuidId>ff20d4e8-1f3a-4eba-829d-1b67b51c11bd</elementGuidId>
+   <elementGuidId>45c710be-dcb4-402e-a4e4-186a3e991e5f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>html/body/div[7]/div[3]/div[1]/div/div/div/ul/li[3]/a[count(. | //a[@href = '#test3' and (text() = 'Personal Information ' or . = 'Personal Information ')]) = count(//a[@href = '#test3' and (text() = 'Personal Information ' or . = 'Personal Information ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='test2']/div/table/tbody/tr/td[8]/div/a/i</value>
+         <value>//a[contains(text(),'Personal Information')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>material-icons</value>
+      <value>#test3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>add</value>
+      <value>Personal Information </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;test2&quot;)/div[@class=&quot;x-scroll of-x width-auto&quot;]/table[@class=&quot;full-bordered highlight bor text-nowrap&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;text-center&quot;]/div[@class=&quot;btn-group m-t-6&quot;]/a[1]/i[@class=&quot;material-icons&quot;]</value>
+      <value>html/body/div[7]/div[3]/div[1]/div/div/div/ul/li[3]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='test2']/div/table/tbody/tr/td[8]/div/a/i</value>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'Personal Information')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CGPA/Percentage'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Academic Information'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Year of passing'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='remove'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Information'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update'])[2]/preceding::i[2]</value>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '#test3')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[8]/div/a/i</value>
+      <value>//div[3]/div/div/div/div/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>
